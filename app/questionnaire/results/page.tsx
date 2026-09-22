@@ -277,7 +277,7 @@ export default function ResultsPage() {
             Ready to Transform Your Organization?
           </h3>
           <p className="mb-6 text-gray-600">
-            Let's discuss how to implement these recommendations and unlock your organization's full potential.
+            Let&apos;s discuss how to implement these recommendations and unlock your organization&apos;s full potential.
           </p>
           <a
             href="mailto:contact@cadence.ai"

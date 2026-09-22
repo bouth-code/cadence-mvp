@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -25,23 +26,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Google Analytics placeholder */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-PLACEHOLDER', {
-                'page_path': window.location.pathname,
-              });
-            `,
-          }}
-        />
+        {/* Google Analytics - configured on Day 13 */}
       </head>
       <body className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
         <nav className="border-b border-gray-200 bg-white shadow-sm">

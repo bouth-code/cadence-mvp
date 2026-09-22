@@ -10,7 +10,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 py-12 sm:py-20 lg:px-8">
         <div className="text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-            Discover Your Organization's{' '}
+            Discover Your Organization&apos;s{' '}
             <span className="text-blue-600">Hidden Opportunities</span>
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600 sm:text-xl">
@@ -112,7 +112,7 @@ export default function Home() {
       {/* Benefits Section */}
       <section className="mx-auto max-w-6xl px-4 py-16 sm:py-24 lg:px-8">
         <h2 className="mb-12 text-center text-3xl font-bold text-gray-900 sm:text-4xl">
-          What You'll Discover
+          What You&apos;ll Discover
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
